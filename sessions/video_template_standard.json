@@ -1,0 +1,50 @@
+{
+  "system_name": "jinny`s Lab - High Intensity Warning Video Template",
+  "design_system": {
+    "brand_tone": "Urgency, Warning, High Intensity (긴급성, 경고, 고효율)",
+    "primary_color": "#FF8C00",
+    "transition_speed": "0.5s to 1.0s (Ultra-fast cut)",
+    "style_reference": "High Intensity Warning - 시각적 긴급성을 극대화하여 즉각적인 행동 유도"
+  },
+  "template_structure": {
+    "video_id": "[영상 고유 ID]",
+    "content_hook": "[선택된 영상 기획의 핵심 후크 문구]",
+    "visual_concept": "[핵심 시각 컨셉 설명 (예: 시간 낭비, 경쟁 상실)]",
+    "scene_breakdown": [
+      {
+        "scene_number": 1,
+        "duration_s": 0.5,
+        "visual_description": "초고속 전환(0.5s)으로 시작하는 강렬한 시각적 충격. 배경은 #FF8C00 계열로 설정하며, 핵심 메시지 텍스트 오버레이가 즉시 등장해야 함.",
+        "text_overlay": {
+          "content": "[가장 강력한 키워드/경고 문구]",
+          "color": "#FFFFFF",
+          "font_style": "Bold, Impact, High Contrast Sans-serif (예: Bebas Neue 또는 유사 폰트)",
+          "emphasis": "Maximum Intensity (최대 강조)"
+        }
+      },
+      {
+        "scene_number": 2,
+        "duration_s": 0.8,
+        "visual_description": "문제 상황(손실)을 시각적으로 명확히 제시하는 인포그래픽 또는 대비 화면. #FF8C00 배경 위에 대비되는 색상(예: 검정 또는 흰색)으로 데이터/차트를 배치.",
+        "text_overlay": {
+          "content": "[구체적인 손실 수치 또는 비교 내용]",
+          "color": "#FFFFFF",
+          "font_style": "Clear, Readable Sans-serif (예: Montserrat)",
+          "emphasis": "High Contrast"
+        }
+      },
+      {
+        "scene_number": 3,
+        "duration_s": 1.0,
+        "visual_description": "해결책 제시 또는 최종 경고 메시지. 빠른 전환 속도를 유지하며 시청자의 행동을 촉구하는 명확한 Call-to-Action(CTA)를 중앙에 배치.",
+        "text_overlay": {
+          "content": "[Call to Action: '지금 시작하세요', '경고!', '놓치지 마세요']",
+          "color": "#FF8C00",
+          "font_style": "Extra Bold, Animated effect (예: 깜빡임/펄스 효과)",
+          "emphasis": "Urgent Call"
+        }
+      }
+    ]
+  },
+  "output_instructions": "LLM은 위 JSON 구조를 기반으로, 제공된 [content_hook]에 맞춰 각 씬의 시각적 프롬프트(예: Midjourney/Pika Labs 스타일)를 생성해야 한다. 모든 묘사는 #FF8C00 색상과 초고속 전환 규칙을 최우선으로 반영한다."
+}

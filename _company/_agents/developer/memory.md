@@ -1,0 +1,70 @@
+# 💻 Developer (Lead Engineer) 개인 메모리
+
+_Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._
+
+## 학습 기록
+
+- [2026-05-05] 총괄 보고서 파일이 GitHub로 푸시되는 자동화된 데이터 파이프라인(CI/CD 또는 스크립트)을 점검하고, 최근 발생한 실패 로그나 설정 오류를 찾아 정확한 원인을 진단하라. → 산출물 sessions/2026-05-05T05-23/developer.md
+- [2026-05-05] 현재 운영 중인 AI 에이전트 시스템(JAY CORP/jinny's lab)의 데이터 파이프라인 및 협업 효율성을 극대화하기 위해 GitHub 환경에서 필수적으로 설치해야 할 확장 기능 목록을 구체적인 이유와 함께 제시하고, 동기화 가능 여부에 대한 기술적 답변을 포함하여 보고서 형태로 작성해라. → 산출물 sessions/2026-05-05T06-56/developer.md
+- [2026-05-05] 현재 시스템 설정 파일(.gitignore 제외된 #🧭 CEO 설정)과 모든 데이터 파이프라인을 감사하여, 노출되어서는 안 되는 API 키, 토큰, 암호화되지 않은 프로덕트 코드가 있는지 기술적으로 점검하고 보고하세요. → 산출물 sessions/2026-05-05T06-58/developer.md
+- [2026-05-05] 현재 이슈가 되고 있는 파일 업로드 파이프라인의 안정성을 최종적으로 확인하고, 주간 콘텐츠 생산 및 배포 계획에 지연이 없을 것을 보장하는 기술적 확답을 제공할 것. → 산출물 sessions/2026-05-05T06-54/developer.md
+- [2026-05-06] YouTube에서 제시한 자동화 파이프라인 설계를 기반으로, 스크립트 입력 시 디자인 요소와 편집 지시사항을 자동으로 생성할 수 있는 최소 기능 제품(MVP)의 기술 스택 및 데이터 파이프라인 구축 계획을 구체적으로 작성합니다. → 산출물 sessions/2026-05-06T01-40/developer.md
+- [2026-05-06] Writer가 제공한 숏폼 스크립트를 입력하면, Designer의 가이드라인(색상 팔레트, 모션 그래픽 스타일)과 편집 지시사항을 자동으로 생성할 수 있는 최소 기능 제품(MVP)의 기술 스택 및 데이터 파이프라인 구축 계획을 구체적으로 작성하고 즉시 실행 가능한 로드맵을 제시하라. → 산출물 sessions/2026-05-06T18-00/developer.md
+- [2026-05-06] Writer와 Designer의 산출물(스크립트, 시각화 지시)을 입력받아, Phase 1 MVP 목표에 맞춰 'Visual Prompt'와 'Editing Directive'를 자동으로 구조화하여 출력하는 Core Prompting 모듈의 Python 함수 초안 작성을 즉시 시작하라. → 산출물 sessions/2026-05-06T18-15/developer.md
+- [2026-05-06] Writer가 제공한 숏폼 스크립트와 Designer가 정의한 시각적 가이드라인(#FF8C00 색상, 0.5초~1초 전환)을 입력받아, 'Visual Prompt'와 'Editing Directive'를 자동으로 구조화하여 출력하는 Core Prompting 모듈의 Python 함수 초안 작성을 즉시 시작하고, Phase 1 MVP에 맞춰 구체적인 API 연동 로드맵을 제시하라. → 산출물 sessions/2026-05-06T19-15/developer.md
+- [2026-05-06] Writer와 Designer의 산출물(스크립트, 시각 가이드라인)을 입력받아, 'Visual Prompt'와 'Editing Directive'를 자동으로 구조화하여 출력하는 Core Prompting 모듈의 Python 함수 초안 작성을 즉시 완료하고, Phase 1 MVP에 맞춰 구체적인 API 연동 로드맵을 최종 확정하라. → 산출물 sessions/2026-05-06T19-45/developer.md
+- [2026-05-06] 확정된 Core Prompting 모듈(core_prompting_module.py)을 기반으로 실제 LLM 연동 테스트를 즉시 시작하고, Phase 1 MVP에 맞춰 구체적인 API 연동 로드맵의 초기 단계 코드를 구현하라. → 산출물 sessions/2026-05-06T20-30/developer.md
+- [2026-05-06] 베트남 타겟 숏폼 비디오 생성을 지원할 수 있는 외부 AI 비디오 생성 API(예: RunwayML, Pika Labs 등) 후보군 3개를 선정하고, 각 API의 기술 사양 및 연동 가능성을 분석하는 초안을 작성하라. → 산출물 sessions/2026-05-06T21-00/developer.md
+- [2026-05-06] Pika Labs를 중심으로 한 MVP 비주얼 파이프라인 구축을 위한 Core Prompting 모듈의 Python 함수 구현을 즉시 시작하고, Phase 1 MVP에 필요한 초기 API 연동 로드맵 코드를 구체화하라. → 산출물 sessions/2026-05-06T21-30/developer.md
+- [2026-05-06] Phase 1 MVP 로드맵(스크립트 → Core Prompting → Pika Labs 호출 → 편집 지시 통합)에 따라, LLM API 연동 레이어와 데이터 파이프라인을 구현하고, 비디오 생성 및 후처리 자동화 스크립트를 즉시 개발하라. → 산출물 sessions/2026-05-06T22-00/developer.md
+- [2026-05-06] 구현된 Pika Labs API 연동 테스트 및 JSON 파싱 안정성 검증을 즉시 수행하고, 파이프라인의 오류 지점 및 개선 필요 사항을 보고하라. → 산출물 sessions/2026-05-06T22-45/developer.md
+- [2026-05-06] Pika Labs API 연동 시 발생하는 JSON 스키마 불일치(E-01) 및 Rate Limiting(E-02) 문제를 즉시 해결하기 위한 코드 개선 항목(A-01, A-02)을 구현하고 파이프라인 안정성을 확보하라. → 산출물 sessions/2026-05-06T23-15/developer.md
+- [2026-05-07] Designer의 검토 결과를 바탕으로, 시각 프롬프트의 구조적 안정성을 확인하고 실제 API 호출 환경에서 발생할 수 있는 잠재적 렌더링 오류를 사전에 점검하는 기술적 검증을 수행하라. → 산출물 sessions/2026-05-06T23-45/developer.md
+- [2026-05-07] 구현된 `MAX_SATURATION_LEVEL` 파라미터의 성능 테스트를 즉시 실행하고, 색상 포화도 조절이 렌더링 오류 방지에 미치는 영향을 정량적으로 측정하여 보고하라. → 산출물 sessions/2026-05-07T00-11/developer.md
+- [2026-05-07] Designer가 제시한 'Dynamic Saturation Scaling' 및 'Transition Buffer' 구현 방안을 Pika Labs API 파이프라인에 즉시 적용하여 렌더링 오류를 검증하고, 시각적 안정성 데이터를 확보하라. → 산출물 sessions/2026-05-07T01-15/developer.md
+- [2026-05-07] 시각적 안정성 테스트 결과 데이터(stability_test_report.json)에서 렌더링 오류율 감소 및 프레임 레이트 안정화 효과에 대한 정량적 데이터를 추출하여 Business 에이전트에게 제공할 준비를 하라. → 산출물 sessions/2026-05-07T01-45/developer.md
+- [2026-05-07] Business 에이전트의 요청에 따라, ROI 분석 보고서 작성을 위한 추가 기술적 근거 자료(파이프라인 안정화 상세 내역)를 준비하라. → 산출물 sessions/2026-05-07T14-34/developer.md
+- [2026-05-07] 사용자가 요청한 '간단한 파이썬 코드'를 생성하라. 구체적인 요구사항이 없으므로, 기본적인 'Hello World' 또는 간단한 계산 예시 코드를 제공하라. → 산출물 sessions/2026-05-07T23-00/developer.md
+- [2026-05-08] 파이썬 코드를 텍스트 형식으로 제공하며, 실제 파일 생성 작업은 사용자의 환경에서 직접 수행해야 함을 안내하라. → 산출물 sessions/2026-05-08T00-16/developer.md
+- [2026-05-08] 파이프라인의 처리 속도와 오류율에 대한 기술적 근거 자료(KPI 포함)를 제공하여 비즈니스 분석에 필요한 데이터를 지원하라. → 산출물 sessions/2026-05-08T00-28/developer.md
+- [2026-05-08] 제공된 스크립트 내용(영상 또는 스토리보드)을 기반으로 웹사이트 코드, 자동화 스크립트 또는 JSON 형식의 파일 생성이 기술적으로 가능한지 확인하고, 필요한 입력 데이터 포맷을 제시하라. → 산출물 sessions/2026-05-08T12-54/developer.md
+- [2026-05-08] Designer와 Writer가 제공한 최종 JSON 스토리보드 및 스타일 가이드라인(#FF8C00, 초고속 전환)을 기반으로, 웹사이트 파일 생성을 자동화하는 HTML 생성 스크립트 구현 작업을 즉시 시작하라. → 산출물 sessions/2026-05-08T13-43/developer.md
+- [2026-05-08] Designer가 제공한 최종 JSON 스토리보드와 스타일 가이드라인(#FF8C00, 초고속 전환)을 기반으로 웹사이트 파일 생성을 자동화하는 HTML 생성 스크립트 구현 작업을 즉시 시작하라. → 산출물 sessions/2026-05-08T16-28/developer.md
+- [2026-05-08] 최종 확정된 JSON 스토리보드 및 스타일 가이드라인을 기반으로 웹사이트 파일 생성을 자동화하는 HTML 생성 스크립트 구현 작업을 준비하고, 필요한 데이터 포맷을 점검하라 → 산출물 sessions/2026-05-08T18-43/developer.md
+- [2026-05-08] 이전에 구현된 HTML 웹사이트 파일 생성 자동화 스크립트(`convert_storyboard_to_html.py`)를 실행하여 실제 웹사이트 파일 생성을 테스트하고, `#FF8C00` 색상 및 초고속 전환 효과가 올바르게 적용되었는지 즉시 검증하라. → 산출물 sessions/2026-05-08T19-28/developer.md
+- [2026-05-08] 이전에 구현된 HTML 웹사이트 파일 생성 자동화 스크립트(`convert_storyboard_to_html.py`)를 다시 실행하여, `#FF8C00` 색상 및 초고속 전환 효과가 완벽하게 적용되었는지 최종 검증하고 오류 발생 시 원인을 파악하여 해결하라. → 산출물 sessions/2026-05-08T19-43/developer.md
+- [2026-05-08] Writer와 Designer가 최종 확정한 JSON 스토리보드를 기반으로 웹사이트 파일 생성을 자동화하는 HTML 생성 스크립트 구현 작업을 즉시 시작하라. → 산출물 sessions/2026-05-08T20-28/developer.md
+- [2026-05-08] 최종 확정된 JSON 스토리보드와 HTML 생성 스크립트를 기반으로 실제 웹사이트 파일 생성을 자동화하는 작업을 즉시 실행하여 개발 병목 현상을 해소하라 → 산출물 sessions/2026-05-08T21-43/developer.md
+- [2026-05-09] youtube_account.json 파일의 API 키 및 연결 상태를 즉시 점검하고 데이터 로드 실패 원인을 분석하여 시스템 무결성을 복구하는 작업을 최우선으로 수행하라. → 자격증명 부족으로 차단됨
+- [2026-05-09] Business팀이 설계한 KPI 요구사항을 바탕으로, YouTube/Instagram 데이터 수집 및 분석 로직을 자동화하는 API 연동 및 데이터 파이프라인의 기술 명세(Specification)를 작성하라. → 산출물 sessions/2026-05-09T03-28/developer.md
+- [2026-05-09] Business팀이 확정한 KPI 측정 로직(BCR 40% 감소 목표)을 반영하여, YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인을 최종 검증하고 시스템 무결성을 확보합니다. → 자격증명 부족으로 차단됨
+- [2026-05-09] KPI 가중치(BCR 40%, ITAR 30%)를 기반으로 YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인 검증 스크립트를 최종 실행하고, 시스템 무결성 확보 계획을 완료하라. → 산출물 sessions/2026-05-09T04-13/developer.md
+- [2026-05-09] YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인 검증 스크립트(`pipeline_verifier.py`)를 실제 환경에 배포하고, Business팀이 확정한 KPI 가중치(BCR 40%, ITAR 30%)가 정확히 반영되어 실시간 데이터 스트림과 연동되는지 최종적으로 확인하고 시스템 무결성을 확보하라. → 산출물 sessions/2026-05-09T04-28/developer.md
+- [2026-05-09] YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인 검증 스크립트(`pipeline_verifier.py`)를 최종적으로 실행하여, 시스템 무결성과 KPI 연동의 정확성을 확보하라. → 산출물 sessions/2026-05-09T04-58/developer.md
+- [2026-05-09] YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인 검증 스크립트(`pipeline_verifier.py`)를 최종적으로 실행하여, 시스템 무결성과 KPI 연동의 정확성을 확보하고 최종 시스템 신뢰도를 확인하라. → 산출물 sessions/2026-05-09T05-28/developer.md
+- [2026-05-09] Business팀이 정의한 'Level 3: Conversion' 목표와 기존의 ITAR/BCR KPI 가중치를 실시간으로 연동하여, 데이터 파이프라인(`pipeline_verifier.py` 로직)가 이 새로운 행동 변화 지표를 정확하게 수집하고 반영하도록 시스템을 업데이트하라. → 산출물 sessions/2026-05-09T05-58/developer.md
+- [2026-05-09] YouTube/Instagram 데이터 수집 및 분석 로직의 자동화 파이프라인 검증 스크립트(`pipeline_verifier.py`)를 최종적으로 실행하여, 시스템 무결성과 Outcome 기반 KPI 연동 정확성을 확보하고 결과를 보고하라. → 산출물 sessions/2026-05-09T06-43/developer.md
+- [2026-05-09] pipeline_verifier.py를 업데이트하여 'Level 3: Conversion' 목표 달성을 위한 구체적인 후속 측정 지표를 시스템에 내재화하고, 이 변경 사항을 즉시 반영하도록 확인한다. → 산출물 sessions/2026-05-09T06-58/developer.md
+- [2026-05-09] 최근 업데이트된 `pipeline_verifier.py`의 'Level 3: Conversion' 측정 지표가 디자인 및 콘텐츠 전략에 반영될 수 있도록, KPI 데이터 출력 포맷을 최종 검증하고 시스템이 요구하는 시각적 프롬프트(ITAR/BCR 연동)를 실시간으로 제공할 수 있도록 API 연결을 확인하고 안정화하라. → 산출물 sessions/2026-05-09T07-43/developer.md
+- [2026-05-09] 최종 시스템 안정화를 위해, 제안된 KPI-Visual Prompt 매핑 로직(가상 코드)을 `pipeline_verifier.py`에 통합하고, ITAR/BCR 연동의 End-to-End 흐름에 대한 최종 자동화 검증 스크립트를 실행하여 시스템 신뢰도를 100% 확보하라. → 산출물 sessions/2026-05-09T07-58/developer.md
+- [2026-05-09] pipeline_verifier.py의 End-to-End 신뢰도 보고서를 즉시 확보하고, KPI-Visual Prompt 매핑 로직의 API 연동 안정성을 최종 확인하여 시스템 신뢰도를 100% 확정하라. → 산출물 sessions/2026-05-09T08-13/developer.md
+- [2026-05-09] pipeline_verifier.py를 사용하여 Outcome 기반 KPI와 시각적 실행 단계(ITAR/BCR 연동)의 End-to-End 신뢰도 보고서를 최종 확보하고, 시스템 자동화의 완성도를 100% 확인하는 작업을 즉시 실행하라. → 산출물 sessions/2026-05-09T08-43/developer.md
+- [2026-05-09] 시스템 신뢰도(ITAR)와 시각적 실행 단계 간의 End-to-End 자동화 검증 스크립트를 실행하고, 이번 콘텐츠 제작에 필요한 데이터 파이프라인 및 API 연동 안정성을 최종 확인한다. → 산출물 sessions/2026-05-09T10-28/developer.md
+- [2026-05-09] pipeline_verifier.py의 End-to-End 자동화 검증 결과를 통합하여 시스템 신뢰도(ITAR)를 공식 문서로 확정하고 즉시 배포하라. → 산출물 sessions/2026-05-09T10-58/developer.md
+- [2026-05-09] pipeline_verifier.py의 End-to-End 자동화 검증 결과를 통합하여 시스템 신뢰도(ITAR) 보고서를 최종 배포하고, KPI 대시보드에 CTR 및 가격 민감도를 필수 항목으로 포함하여 자동화 플로우를 완성할 것. → 산출물 sessions/2026-05-09T12-13/developer.md
+- [2026-05-09] pipeline_verifier.py의 End-to-End 자동화 검증 결과를 바탕으로 시스템 신뢰도(ITAR) 보고서를 최종 확정하고, 이 데이터가 KPI 대시보드에 정확히 매핑되도록 데이터 파이프라인 로직을 완성하라. → 산출물 sessions/2026-05-09T12-28/developer.md
+- [2026-05-09] pipeline_verifier.py를 실행하여 모든 A/B 테스트 그룹별 초기 KPI(CTR, 시청 완료율) 데이터를 즉시 추출하고 정리할 것. → 산출물 sessions/2026-05-09T12-58/developer.md
+- [2026-05-09] YouTube 채널 분석을 위해 필요한 API 키와 채널 ID를 즉시 확보하고, 시스템 신뢰도(ITAR) 보고서 및 KPI 대시보드 통합 로직의 최종 검증을 완료할 수 있도록 데이터 접근 권한을 조치하라. → 산출물 sessions/2026-05-09T14-28/developer.md
+- [2026-05-09] API 키 수신을 기다리며, 확보된 데이터 파이프라인 로직과 `pipeline_verifier.py`의 최종 통합 검증 모듈 구조를 재확인하고 다음 단계 실행 준비를 완료하라. → 산출물 sessions/2026-05-09T14-58/developer.md
+- [2026-05-09] YouTube API 키 및 채널 ID를 수신한 즉시, `pipeline_verifier.py`를 실행하여 모든 A/B 테스트 그룹의 원시 KPI($	ext{A}_{i}$)를 추출하고 ITAR 기준($	ext{ITAR}_{	ext{Target}}$)과 비교하여 신뢰도 불일치 보고서($	ext{Discrepancy Report}$)를 생성하라. → 자격증명 부족으로 차단됨
+- [2026-05-09] YouTube API 키 및 채널 ID 수신 시, KPI 추출 및 불일치 보고서 생성을 위한 `pipeline_verifier.py`의 데이터 파이프라인 로직과 오류 처리 모듈을 최적화하라 → 자격증명 부족으로 차단됨
+- [2026-05-09] 제공된 YouTube API 키와 채널 ID를 사용하여 `pipeline_verifier.py`의 KPI 추출 및 불일치 보고서 생성을 최종 실행하라. → 자격증명 부족으로 차단됨
+- [2026-05-09] YouTube API 키 및 채널 ID를 확보하여 `pipeline_verifier.py`의 KPI 추출 및 불일치 보고서 생성을 즉시 실행하고, Business팀이 ROI 분석을 시작할 수 있도록 데이터를 제공하라. → 자격증명 부족으로 차단됨
+- [2026-05-09] YouTube API 키 및 채널 ID가 제공되는 즉시 `pipeline_verifier.py`의 KPI 추출 모듈 실행 환경을 최종적으로 점검하고, 데이터 수신에 따른 오류 처리 시나리오를 준비하라. → 자격증명 부족으로 차단됨
+- [2026-05-09] 확보된 KPI 데이터의 신뢰성을 검증하기 위해 `pipeline_verifier.py`의 통합 검증 모듈 실행 환경을 최종 점검하고, 데이터 수신 시 발생할 수 있는 오류 처리 시나리오를 준비하라. → 산출물 sessions/2026-05-09T19-43/developer.md
+- [2026-05-09] 확보된 KPI 데이터(VCR, CTR, CR, CAC)를 바탕으로 `pipeline_verifier.py`의 통합 검증 모듈을 즉시 실행하고, 데이터 수신 시 발생할 수 있는 모든 오류 처리 시나리오를 최종적으로 테스트하여 안정성을 확보하라. → 산출물 sessions/2026-05-09T20-28/developer.md
+- [2026-05-09] Writer가 완성한 스크립트와 Designer가 제시한 비주얼 지시사항을 통합하여, 스크립트 입력 시 디자인 에셋 생성 및 영상 편집까지 자동화하는 API 기반 파이프라인 모듈 개발을 즉시 시작하라. → 산출물 sessions/2026-05-09T20-58/developer.md
+- [2026-05-09] Writer와 Designer의 산출물(스크립트 및 비주얼 지시사항)이 자동으로 영상 생성까지 이어지는 End-to-End 파이프라인 모듈(`pipeline_executor.py`) 개발을 최종 완료하고, 시스템 통합 테스트 시나리오를 작성하라. → 산출물 sessions/2026-05-09T21-13/developer.md
+- [2026-05-09] pipeline_executor.py 내의 Pika Labs API 호출 부분에서 발생하는 모든 예외 상황(Rate Limit, Schema Error 등)에 대한 자동 재시도 및 에러 핸들링 시나리오를 최종 구현하고 테스트하여 시스템 안정성을 확보하라. → 산출물 sessions/2026-05-09T21-28/developer.md
+- [2026-05-11] End-to-End 파이프라인(`pipeline_executor.py`)의 안정성을 즉시 점검하고, Writer/Designer가 요청한 콘텐츠 제작에 필요한 API 및 모듈 통합 상태를 확인하여 실행 준비를 완료하세요. → 산출물 sessions/2026-05-11T01-24/developer.md
+- [2026-05-12] 코다리, 병아리게임을 어릴때 했던 다마고치 게임처럼 만들어줘 알모양의 디자인에 화면속에서 병아리가 왔다갔다하면서  먹이를 누르면 실제로 배가 부르고 운동 시키고 물도줘야하고 시간맞춰 소화도 되고 배가 많이 고프면 죽거나 배가 많이 불러도 죽을수있는  어릴때 했던 다마고치 감성을 느낄수 있게 게임 코딩해봐 → 산출물 sessions/2026-05-12T08-07/developer.md

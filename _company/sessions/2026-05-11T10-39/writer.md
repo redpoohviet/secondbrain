@@ -1,0 +1,66 @@
+# ✍️ Writer — 이전 단계에서 생성된 A/B 테스트용 후크 5가지 중 가장 효과적이라고 판단되는 후크를 선택하고, 이를 기반으로 최종 영상 스크립트 초안(손실 강조 원칙 및 #FF8C00 스타일 적용)을 완성하여 Designer에게 전달할 준비를 하라.
+
+✍️ Writer: 작업 시작합니다.
+
+이전 단계에서 생성된 A/B 테스트 후크 중 가장 효과적인 것을 선택하고, 손실 강조 원칙과 #FF8C00 스타일을 적용하여 최종 영상 스크립트 초안을 완성하겠습니다. 모든 결과물은 Designer가 바로 시각화에 사용할 수 있도록 JSON 형식으로 구조화합니다.
+
+이전 메모리와 지침에 따라, '손실 강조(Loss Emphasis)'와 'High Intensity Warning' 스타일 및 '#FF8C00' 컬러 팔레트를 적용하여 최종 스크립트를 완성합니다.
+
+<create_file path="sessions/2026-05-11T23-Final_Script_Draft.json">
+{
+  "video_title": "베트남인을 위한 중국어 생존 마스터: 당장 모르면 손해 보는 필수 문법 3가지",
+  "target_audience": "3040 베트남인 직장인 (중국어 학습자)",
+  "style_guideline": {
+    "mood": "High Intensity Warning (불안감 극대화, 즉각적 행동 유도)",
+    "color_palette": "#FF8C00 (주요 강조색)",
+    "principle": "Loss Emphasis (손실 강조 원칙 적용: 모르면 손해, 놓치면 위험)"
+  },
+  "hook_selection": {
+    "selected_hook_strategy": "최대 손실 회피 및 즉각적 생존 문제 해결",
+    "final_hook": "당신이 모르는 이 3가지 문법 때문에 베트남에서 직장 생활을 망칠 수 있습니다. 지금 당장 확인하지 않으면 기회를 영원히 놓칩니다!",
+    "hook_style": "공포 유발형 + 즉각적 문제 해결 구조"
+  },
+  "script_details": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "visual_prompt": "화면 전체에 #FF8C00 배경. 매우 빠른 깜빡이는 경고 사인(Warning Sign) 모션 그래픽 오버레이. 'DANGER: MISS THIS!' 텍스트가 중앙에 크게 나타남.",
+      "audio_narration": "멈춰! 당신이 모르는 이 3가지 문법 때문에 베트남에서 직장 생활을 망칠 수 있습니다.",
+      "on_screen_text": "DANGER: MISS THIS!"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 8,
+      "visual_prompt": "복잡한 문법 규칙들이 시각적으로 불안정하게 빠르게 스크롤되는 모션 그래픽. 배경은 어두운 회색 계열로 설정하고 #FF8C00으로 강조 표시.",
+      "audio_narration": "당신이 모르는 이 세 가지 핵심 문법을 알지 못하면, 실질적인 기회와 안전을 영원히 놓치게 됩니다.",
+      "on_screen_text": "놓치면 위험! (Loss Emphasis)"
+    },
+    {
+      "scene": 3,
+      "duration_sec": 12,
+      "visual_prompt": "각 문법 규칙(초급, 중급, 상급)이 명확하게 구분되어 나타나며, 각 단계마다 #FF8C00으로 특정 단어가 강조됨. 학습 흐름을 시각적으로 통제하는 흐름도 디자인 시스템 적용.",
+      "audio_narration": "우리는 복잡한 이론 대신 당장 생존에 필요한 기초 문법에 집중합니다. 이 지식은 당신의 미래를 결정합니다.",
+      "on_screen_text": "Level Up Your Survival: 초급, 중급, 상급"
+    },
+    {
+      "scene": 4,
+      "duration_sec": 5,
+      "visual_prompt": "화면 중앙에 거대한 'STOP' 표시. 하단에 유료 앱으로 연결되는 CTA(Call to Action) 버튼이 #FF8C00으로 빛남.",
+      "audio_narration": "더 이상 망설이지 마세요. 이 생존 문법을 지금 바로 마스터하고, 당신의 기회를 확보하세요!",
+      "on_screen_text": "지금 바로 확인하고 행동하라! (CTA)"
+    }
+  ],
+  "cta_final": {
+    "action": "앱 다운로드 및 학습 시작",
+    "urgency_message": "시간이 없습니다. 이 지식을 놓치면, 당신은 뒤처집니다."
+  }
+}
+</create_file>
+
+📊 평가: 완료 — CEO의 지시에 따라 손실 강조 원칙과 #FF8C00 스타일을 적용하여 최종 영상 스크립트 초안을 JSON 형식으로 완성했습니다.
+📝 다음 단계: Designer에게 생성된 JSON 파일을 전달하고 시각적 프롬프트를 기반으로 최종 디자인 시스템 구현을 요청합니다.
+
+---
+## 📁 파일 액션 결과
+
+✅ 생성: d:\03_AI Work\05_project\00_secondbrain\sessions\2026-05-11T23-Final_Script_Draft.json
