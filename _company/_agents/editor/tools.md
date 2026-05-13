@@ -1,6 +1,6 @@
-# ✂️ Editor — 도구 매니페스트
+# 🎵 루나 — 도구 매니페스트
 
-_Editor 에이전트가 어떤 도구를 어디까지 자율적으로 쓸 수 있는지 정의합니다._
+_루나 에이전트가 어떤 도구를 어디까지 자율적으로 쓸 수 있는지 정의합니다._
 _매번 시스템 프롬프트로 주입되며, 텔레그램에서 `/tools`로 현재 상태 확인 가능._
 
 ---
@@ -20,24 +20,22 @@ AUTONOMY_LEVEL: 2
 
 ---
 
-## 사용 가능한 도구 (절대 경로 실행 권장)
-_모든 도구는 아래 파이썬 경로를 사용하여 실행합니다:_
-`C:\Users\desktop-jin\AppData\Local\Programs\Python\Python312\python.exe`
+## 사용 가능한 도구
 
-### `ffmpeg_runner`
-컷·자막·B-roll 합성
+### `music_studio_setup`
+음악 모델 설치 (MusicGen / ACE-Step)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
-### `whisper_local`
-로컬 자막 생성 (오프라인)
+### `music_generate`
+BGM 자동 생성 (장르·길이 지정)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
-### `reframe_9_16`
-16:9 → 9:16 자동 리프레임 (릴스/숏츠)
+### `music_to_video`
+생성된 BGM을 영상에 합성 (loop/fade)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조

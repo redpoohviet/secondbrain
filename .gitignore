@@ -7,11 +7,3 @@ node_modules/
 *.log
 .cache/
 Thumbs.db
-*.zip
-*.gguf
-venv/
-.env
-.python-version
-*.local.json
-oauth*
-token*

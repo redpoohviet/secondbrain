@@ -20,27 +20,30 @@ AUTONOMY_LEVEL: 2
 
 ---
 
-## 사용 가능한 도구 (절대 경로 실행 권장)
-_모든 도구는 아래 파이썬 경로를 사용하여 실행합니다:_
-`C:\Users\desktop-jin\AppData\Local\Programs\Python\Python312\python.exe`
-
-### `approval_gate`
-위험 액션(deploy/post/send/rm) 사용자 승인 게이트
-
-- `enabled`: true
-- `requires_credentials`: `config.md` 참조
-
-### `team_briefing`
-주간 전체 회의 자동 진행 + 회의록 정리
-
-- `enabled`: true
-- `requires_credentials`: `config.md` 참조
+## 사용 가능한 도구
 
 ### `router`
-사용자 명령 → 적합한 specialist로 분배
+사용자 명령 → 적합한 specialist로 분배 (CEO 클래시파이어 내장)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
+
+
+---
+
+## 로드맵 (예정)
+
+_아래 도구들은 향후 버전에서 추가 예정. 지금은 카탈로그에만 있음._
+
+### `approval_gate` _(예정)_
+위험 액션(deploy/post/send/rm) 사용자 승인 게이트
+
+- 아직 구현되지 않은 도구입니다. 로드맵에 있으며 향후 버전에서 추가 예정.
+
+### `team_briefing` _(예정)_
+주간 전체 회의 자동 진행 + 회의록 정리
+
+- 아직 구현되지 않은 도구입니다. 로드맵에 있으며 향후 버전에서 추가 예정.
 
 
 ---
